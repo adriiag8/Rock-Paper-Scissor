@@ -1,0 +1,57 @@
+header {
+  width: 350px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: antiquewhite;
+  border: 3px solid;
+  border-radius: 25px;
+}
+
+.choiceBtns {
+  line-height: 30px;
+  padding: 1.5em;
+  width: 150px;
+}
+
+#gameBoard {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 5px solid;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: lightgrey;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#playerText {
+  color: blue;
+}
+
+#computerText {
+  color: red;
+}
+
+#resultText {
+  border: 1.5px solid green;
+  border-width: medium;
+  border-radius: 15px;
+  width: auto;
+  text-align: center;
+  color: green;
+}
+
+button {
+  border-radius: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+  background-color: white;
+}
+
+button:hover {
+  transform: scale(1.25);
+  background-color: darkslategray;
+  cursor: pointer;
+}
