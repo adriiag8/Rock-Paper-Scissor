@@ -1,17 +1,11 @@
 header {
   width: 350px;
   text-align: center;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 15px;
   background-color: antiquewhite;
   border: 3px solid;
   border-radius: 25px;
-}
-
-.choiceBtns {
-  line-height: 30px;
-  padding: 1.5em;
-  width: 150px;
 }
 
 #gameBoard {
@@ -23,23 +17,55 @@ header {
   background-color: lightgrey;
   text-align: center;
   margin-top: 10px;
+  max-width: 500px;
+  margin: 50px auto;
 }
 
-#playerText {
+#playerDisplay {
   color: blue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-#computerText {
+#computerDisplay {
   color: red;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-#resultText {
-  border: 1.5px solid green;
-  border-width: medium;
-  border-radius: 15px;
-  width: auto;
-  text-align: center;
+#resultDisplay {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#playerScoreDisplay {
   color: green;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#computerScoreDisplay {
+  color: red;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 button {
@@ -48,6 +74,11 @@ button {
   font-weight: bold;
   font-size: medium;
   background-color: white;
+  width: 7.5rem;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  line-height: 30px;
 }
 
 button:hover {

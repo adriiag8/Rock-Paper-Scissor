@@ -16,12 +16,23 @@
         <h1> Rock, Paper & Scissors </h1>
     </header>
     <div id="gameBoard" class="container">
-        <h1 class="gameText" id="playerText">Player: </h1>
-        <h1 class="gameText" id="computerText">Computer: </h1>
-        <h1 class="gameText" id="resultText">Result: </h1>
-        <button class="choiceBtns"><i class="fa-solid fa-hand-back-fist"></i> Rock</button>
-        <button class="choiceBtns"><i class="fa-solid fa-hand"></i> Paper</button>
-        <button class="choiceBtns"><i class="fa-solid fa-hand-scissors"></i> Scissors</button>
+        <div class="choices">
+            <button onclick="playGame('Rock')"><i class="fa-solid fa-hand-fist"></i>
+                Rock</button>
+            <button onclick="playGame('Paper')"><i class="fa-solid fa-hand"></i> Paper</button>
+            <button onclick="playGame('Scissors')"><i class="fa-solid fa-hand-scissors"></i>
+                Scissors</button>
+        </div>
+        <div id="playerDisplay">Player: </div>
+        <div id="computerDisplay">Computer: </div>
+        <div id="resultDisplay">Result:</div>
+        <hr>
+        <div id="scoreBoard">
+            <div id="playerScoreDisplay">Player Score: </div>
+            <div id="computerScoreDisplay">Computer Score: </div>
+
+        </div>
+
     </div>
     <script src="script.js"></script>
 
